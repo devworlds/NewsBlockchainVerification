@@ -19,6 +19,7 @@ describe('AppController', () => {
   describe('root', () => {
     it('should return !"', () => {
       const mockValidator: ValidatorDTO = {
+        id: 'uuid',
         firstName: 'Jefferson',
         lastName: 'Luiz',
         wallet: '0x1'

@@ -11,11 +11,13 @@ export const databaseProviders = [
         port: 3306,
         username: 'root',
         password: 'root',
-        database: 'test',
+        database: 'news',
         entities: [
             __dirname + '/../**/*.entity{.ts,.js}',
         ],
         synchronize: true,
+        migrations: [/*...*/],
+        migrationsTableName: "custom_migration_table",
       });
 
       return dataSource.initialize();

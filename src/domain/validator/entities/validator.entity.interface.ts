@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 export interface ValidatorDTO {
-    firstName: string
-    lastName: string
-    wallet: string
+    id: string;
+    firstName: string;
+    lastName: string;
+    wallet: string;
 }

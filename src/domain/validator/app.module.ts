@@ -8,4 +8,4 @@ import { AppValidatorService } from './app.service';
   controllers: [AppValidatorController],
   providers: [AppValidatorService],
 })
-export class AppNewsModule {}
+export class AppValidatorDbModule {}
