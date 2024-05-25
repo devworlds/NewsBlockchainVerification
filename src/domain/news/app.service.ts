@@ -11,6 +11,7 @@ export class AppNewsService {
       title: newsDTO.author, 
       content: newsDTO.content, 
       author: newsDTO.author,
+      verified: false,
     };
   }
 }

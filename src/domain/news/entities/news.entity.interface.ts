@@ -4,4 +4,5 @@ export interface NewsDTO {
   title: string;
   content: string;
   author: string;
+  verified: boolean;
 }

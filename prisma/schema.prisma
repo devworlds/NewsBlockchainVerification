@@ -18,6 +18,7 @@ model News {
   title    String  
   content  String
   author   String
+  verified Boolean   @default(false)
 }
 
 model Validator {

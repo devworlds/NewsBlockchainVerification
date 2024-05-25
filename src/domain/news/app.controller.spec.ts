@@ -23,7 +23,7 @@ describe('AppController', () => {
         title: 'Conteudo Adulto',
         content: 'secsu',
         author: 'Jefferson',
-        fonts: ['http://www.secsu.com/fonts']
+        verified: false
       }
       expect(appNewsController.CreateNews(mockNews)).toEqual(mockNews)
     });

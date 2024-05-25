@@ -9,16 +9,17 @@ import { AppValidatorService } from './domain/validator/app.service';
 import { PrismaService } from './prisma.service';
 import { NewsService } from './domain/news/db/news-db.service';
 import { ValidatorService } from './domain/validator/db/validator-db.service';
+import { Web3Service } from './domain/news/blockchain/blockchain.service';
 
 @Module({
-  imports: [
-  ],
+  imports: [],
   controllers: [
     AppController, 
     AppNewsController, 
     AppValidatorController
   ],
   providers: [
+    Web3Service,
     ValidatorService,
     NewsService,
     PrismaService,
